@@ -1,0 +1,135 @@
+.hishair1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   margin-left: 5vw;
+   margin-right: 5vw;
+   margin-bottom: 15vh;
+}
+.hishair2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   margin-left: 5vw;
+   margin-right: 5vw;
+   margin-bottom: 15vh;
+}
+.hisimg1{
+   margin-top: 5vh;
+    height: 50vh;
+    width: 25vw;
+    border: 2px solid rgb(123, 123, 169);
+    border-radius: 500px;
+    background-image: url(../../assets/hair.jpg);
+    background-size: cover;
+    box-shadow: 5px 5px 5px 5px  #c8c3f2;
+
+}
+.hisimg{
+   
+    height: 50vh;
+    width: 25vw;
+    border: 2px solid rgb(123, 123, 169);
+    border-radius: 500px;
+    background-image: url(../../assets/hair.jpg);
+    background-size: cover;
+    box-shadow: 5px 5px 5px 5px   #c8c3f2;
+
+}
+.desc{
+     margin-top: 10vh;
+    height: 30vh;
+    width: 50vw; 
+    color: #d3d9e6;
+}
+.hisimg2{
+   
+    height: 50vh;
+    width: 25vw;
+    border: 2px solid rgb(123, 123, 169);
+    border-radius: 500px;
+    background-image: url(../../assets/hair.jpg);
+    background-size: cover;
+    box-shadow: 5px 5px 5px 5px   #c8c3f2;
+
+}
+.desc2{
+     margin-top: 10vh;
+    height: 30vh;
+    width: 50vw; 
+    color: #d3d2f1;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* text-shadow: 2px 2px #8e8dce; */
+    
+}
+
+  @media (max-width: 600px) {
+    .hishair1 {
+      flex-direction: column;
+    }
+    .hishair2 {
+        flex-direction: column-reverse;
+      }
+      .hisimg1{
+        margin-top: 7vh;
+        height: 30vh;
+        width: 70vw;
+        margin-left: 5vw;
+    }
+.hisimg{
+    margin-top: 15vh;
+    height: 30vh;
+    width: 70vw;
+    margin-left: 5vw;
+}
+.desc{
+    /* display: flex; */
+     margin-top: 5vh;
+     margin-left: 9vw;
+    height: 60vh;
+    /* background-color: #0c0647; */
+    /* width: 90vw;  */
+   
+}
+  }
+
+  @media (max-width: 1000px) {
+    .hishair1 {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .hishair2 {
+        flex-direction: column-reverse;
+        justify-content: center;
+      }
+.hisimg{
+    height: 30vh;
+    width: 70vw;
+    margin-left: 5vw;
+}
+.desc{
+    /* display: flex; */
+     margin-top: 5vh;
+     margin-left: 9vw;
+    height: 15vh;
+    width: auto;    
+}
+  }
+  /* .herhead1{
+    display: flex;
+    justify-content: center; */
+    /* margin-top: 30px; */
+    /* padding-top: 30px;
+    color: #98a8d2; 
+     text-shadow: 2px 2px #35066e;
+  } */
+  .hisheadmain{
+    background-size: auto;
+    background-color: #050e4b;
+  }

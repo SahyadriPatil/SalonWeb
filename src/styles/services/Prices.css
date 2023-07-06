@@ -1,0 +1,15 @@
+.priceshead{
+    height:  50vh;
+    width: 100vw;
+    /* background-image: url(./components/Services/services.png); */
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-items: center;
+   justify-content: center;
+}
+.pricesheading{
+    margin-top: 25vh;
+    color: rgb(13, 13, 59);
+  }
